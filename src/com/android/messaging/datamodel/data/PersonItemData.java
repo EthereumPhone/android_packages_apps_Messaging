@@ -41,6 +41,7 @@ public abstract class PersonItemData extends BindableData {
     public abstract long getContactId();
     public abstract String getLookupKey();
     public abstract String getNormalizedDestination();
+    public abstract String getEthereumAddress();
 
     public void setListener(final PersonItemDataListener listener) {
         if (isBound()) {
